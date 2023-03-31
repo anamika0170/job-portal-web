@@ -1,0 +1,24 @@
+section{
+  margin-top: 4rem;
+}
+
+  h2 {
+    text-transform: none;
+  }
+   h5 {
+    font-weight: 700;
+  }
+  .jobs {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    row-gap: 2rem !important;
+  }
+  @media (min-width: 992px) {
+    .jobs {
+      display: grid !important;
+      grid-template-columns: 1fr 1fr !important;
+      gap: 1rem !important;
+      /* flex-direction: column !important; */
+    }
+  }
+

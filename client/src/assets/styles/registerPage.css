@@ -1,0 +1,39 @@
+section{
+  display: grid;
+  align-items: center;
+
+}
+  .logo {
+    display: block;
+    /* margin: 0 auto; */
+    margin-bottom: 1.38rem;
+  }
+  /* .form {
+    max-width: 400px;
+    border-top: 5px solid #2cb1bc;
+  } */
+.form{
+  margin-top:  30px !important;
+}
+  h3 {
+    text-align: center;
+  }
+  p {
+    margin: 0;
+    margin-top: 1rem;
+    text-align: center;
+    color: black;
+  }
+  .btn {
+    margin-top: 2rem;
+  }
+  .member-btn {
+    background: transparent;
+    border: transparent;
+    color: #2cb1bc;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 18px;
+  }
+

@@ -1,0 +1,48 @@
+
+  nav {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+   
+  }
+  .logo{
+    height:15vh !important
+  }
+  .page {
+    min-height: calc(100vh - 6rem);
+    display: grid;
+    align-items: center;
+    margin-top: -3rem;
+  }
+  h1 {
+    font-weight: 700;
+    
+  }
+  span {
+    color: #2cb1bc;;
+  }
+  p {
+    color: #486581
+  }
+  .main-img {
+    display: none;
+  }
+  .btn{
+     display:'flex';
+    flex-direction:'columns';
+    align-items: 'center';
+    margin-top:10px
+  }
+  @media (min-width: 992px) {
+    .page {
+      grid-template-columns: 1fr 1fr;
+      column-gap: 3rem;
+    }
+    .main-img {
+      display: block;
+    }
+  }
+

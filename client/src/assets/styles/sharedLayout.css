@@ -1,0 +1,97 @@
+.appbar{
+    background-color:#2cb1bc !important;
+    height:10vh !important
+}
+.logoName{
+    margin-left: 5px;
+    font-weight: bold;
+    color: #2cb1bc;
+    font-size: 22px;
+}
+.my-div {
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  .userBtn{
+    background-color: white !important;
+  }
+
+.userPro{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    font-size: 10px !important;
+    color: #2cb1bc !important;
+}
+.userName{
+  background-color: #2cb1bc !important;
+    box-shadow: 0px 0px 3px 0px white !important;
+    /* font-weight: bold !important; */
+}
+  
+.avtar{
+  height:5vh !important;
+   background-color:#2cb1bc !important;
+   box-shadow:1px 1px 1px 1px white !important;
+   font-size: 18px !important;
+   
+}
+.active {
+  color: #102a43;
+  
+}
+.active .icon {
+  color: #102a43;
+}
+.inactive{
+  color: #2cb1bc;
+  /* background-color: red; */
+}
+.nav-link {
+  display: flex;
+  align-items: center;
+  color: #627d98;
+  /* padding: 1rem 0; */
+  padding-left: 2.5rem;
+  text-transform: capitalize;
+  transition: 0.3s ease-in-out all;
+  text-decoration: none !important;
+}
+.logout{
+  display: flex;
+  align-items: center;
+  color: #2cb1bc;
+  /* padding: 1rem 0; */
+  padding-left: 2.5rem;
+  text-transform: capitalize;
+  transition: 0.3s ease-in-out all;
+  text-decoration: none !important;
+}
+.logout .icon{
+  color: #2cb1bc;
+}
+.nav-links {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.nav-link:hover {
+  background: #f0f4f8 !important;
+  padding-left: 3rem;
+  color: #102a43 !important;
+}
+.nav-link:hover .icon {
+  color: var(--primary-500);
+}
+.icon {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  display: grid;
+  place-items: center;
+  transition: var(--transition);
+}
+
+

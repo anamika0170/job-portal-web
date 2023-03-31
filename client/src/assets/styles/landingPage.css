@@ -12,10 +12,10 @@
     height:15vh !important
   }
   .page {
-    min-height: calc(100vh - 6rem);
+    /* min-height: calc(100vh - rem); */
     display: grid;
     align-items: center;
-    margin-top: -3rem;
+    height: 100%;
   }
   h1 {
     font-weight: 700;
@@ -28,8 +28,7 @@
     color: #486581
   }
   .main-img {
-    /* display: none; */
-    margin-top: 40px;
+    display: none;
   }
   .btn{
      display:'flex';
@@ -44,45 +43,6 @@
     }
     .main-img {
       display: block;
-      margin-top: -60px;
-    }
-    .btn{
-      width: 100%;
     }
   }
 
-  .container {
-    max-width: 1260px;
-    margin: 0 auto;
-    padding: 0 1rem;
-  }
-
-  @media screen and (max-width: 735px) {
-    .btn {
-      /* max-width: 720px; */
-      width: 50%;
-    }
-  }
-  @media screen and (max-width: 992px) {
-    .btn {
-      /* max-width: 720px; */
-      display: grid !important;
-      width: 50% !important;
-      justify-content: center !important;
-    }
-  }
-  
-  @media screen and (max-width: 768px) {
-    .container {
-      max-width: 720px;
-      padding: 0;
-    }
-  }
-  
-  @media screen and (max-width: 576px) {
-    .container {
-      max-width: 540px;
-      padding: 0;
-    }
-  }
-  

@@ -71,7 +71,7 @@ const Profile = () => {
       <Container maxWidth="sm">
         <div className="profile-card">
           <div className="profile-avtar">
-            <Avatar sx={{ bgcolor: "#0e7c86"}}>A</Avatar>
+            <Avatar sx={{ bgcolor: "#0e7c86"}}>{user.name.charAt(0)}</Avatar>
           </div>
           <p>
             <Chip
